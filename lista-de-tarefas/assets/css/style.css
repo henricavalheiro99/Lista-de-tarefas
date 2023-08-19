@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:root {
+    --header: rgb(53, 53, 176);
+}
+
+#header {
+    background-color: var(--header);
+    color: white;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#h1-header {
+    padding: 13px;
+    font-size: 36px;
+}
+
+.imagem-header {
+    height: 80px;
+    width: 80px;
+}
+
+
+/* @keyframes MudaFonte {
+    0% {
+        font-family: "Dancing-Script";
+    }
+
+    10% {
+        font-family: "Dancing-Script";
+    }
+
+    20% {
+        font-family: "cano";
+    }
+
+    30% {
+        font-family: "GRAD";
+    }
+
+    40% {
+        font-family: "DM-sans";
+    }
+
+    50% {
+        font-family: "Jellee-Roman";
+    }
+
+    60% {
+        font-family: "Barista Script";
+    }
+
+    70% {
+        font-family: "Antoinette-Miller";
+    }
+} */
+
+#main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px;
+}
+
+.card {
+    width: 500px;
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 30px;
+    background: #f8f8f8;
+    box-shadow: 15px 15px 30px #cbcbcb,
+                -15px -15px 30px #ffffff;
+}
+
+.h2-cadastro{
+    color: var(--header);
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+#input-label{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#icone{
+    padding-left: 10px;
+    color: var(--header);
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#label{
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+
+#input-tarefa{
+
+    height: 30px;
+    line-height: 22px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+    cursor: pointer;
+
+}
+
+#input-tarefa:focus, #input-tarefa:hover {
+    outline: none;
+    border-color: rgba(76, 147, 234, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(86, 114, 253, 0.1);
+
+}
+
+#btn-cadastrar {
+    font-size: 13px;
+    padding: 7px;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin-left: 5px;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+   
+   #btn-cadastrar:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+
+   #btn-cadastrar:active {
+    transform: translate(0em, 0.2em);
+   }
+
+   .item-add{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #0d0c22;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 70px;
+   }
+
+   .btn-lista {
+    font-size: 13px;
+    padding: 7px;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin-left: 5px;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: rgb(169, 236, 226);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+   }
